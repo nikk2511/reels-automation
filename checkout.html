@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Natural Craft Checkout</title>
+  <meta name="description" content="Complete a demo Natural Craft checkout flow.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="checkout">
+  <div data-header></div>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero__shell reveal">
+          <span class="eyebrow">Natural Craft Checkout</span>
+          <h1 class="section-title">A cleaner purchase handoff for the Natural Craft storefront.</h1>
+          <p>This is still a front-end demo checkout, but it now sits inside the Natural Craft brand framing and keeps the order summary tied to the same product imagery used across the site.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container checkout-layout">
+        <div class="checkout-panel reveal">
+          <span class="eyebrow">Delivery Details</span>
+          <h2 class="section-title" style="font-size: clamp(1.8rem, 3vw, 2.6rem);">Complete your Natural Craft order</h2>
+          <form class="checkout-grid" data-checkout-form>
+            <div class="checkout-grid checkout-grid--split">
+              <label>
+                <span class="field-label">First name</span>
+                <input type="text" name="firstName" placeholder="Nikhil" required>
+              </label>
+              <label>
+                <span class="field-label">Last name</span>
+                <input type="text" name="lastName" placeholder="Singh" required>
+              </label>
+            </div>
+            <label>
+              <span class="field-label">Email</span>
+              <input type="email" name="email" placeholder="you@example.com" required>
+            </label>
+            <label>
+              <span class="field-label">Phone</span>
+              <input type="tel" name="phone" placeholder="+91 90000 00000" required>
+            </label>
+            <label>
+              <span class="field-label">Address</span>
+              <input type="text" name="address" placeholder="House number, street, area" required>
+            </label>
+            <div class="checkout-grid checkout-grid--split">
+              <label>
+                <span class="field-label">City</span>
+                <input type="text" name="city" placeholder="Mumbai" required>
+              </label>
+              <label>
+                <span class="field-label">Postal code</span>
+                <input type="text" name="postalCode" placeholder="400001" required>
+              </label>
+            </div>
+            <div class="checkout-grid checkout-grid--split">
+              <label>
+                <span class="field-label">State</span>
+                <input type="text" name="state" placeholder="Maharashtra" required>
+              </label>
+              <label>
+                <span class="field-label">Delivery notes</span>
+                <input type="text" name="notes" placeholder="Gate code, landmark, timing">
+              </label>
+            </div>
+            <label>
+              <span class="field-label">Card details</span>
+              <input type="text" name="card" placeholder="4242 4242 4242 4242">
+            </label>
+            <div class="button-row">
+              <button class="button button--primary" type="submit">Place Demo Order</button>
+              <a class="button button--secondary" href="cart.html">Back to Cart</a>
+            </div>
+          </form>
+          <div data-checkout-status></div>
+        </div>
+        <div data-checkout-summary></div>
+      </div>
+    </section>
+  </main>
+  <div data-footer></div>
+  <div data-cart-drawer></div>
+  <script src="site.js"></script>
+</body>
+</html>
