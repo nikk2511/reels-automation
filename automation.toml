@@ -1,10 +1,1 @@
-version = 1
-id = "ai-tools-reels-cycle"
-name = "AI Tools Reels Cycle"
-prompt = "Run the Instagram Reels growth workflow for a single AI-tools niche account. Read memory/LESSONS-LEARNED.md, memory/TRENDING-NOW.md, memory/HASHTAG-BANK.md, and memory/FORMAT-WINNERS.md before making any content decision. Use fresh research to identify current AI-tools topics, creator angles, hook patterns, content structures, and relevant hashtags. Update those memory files every run. Output one cycle with a trend summary, format summary, hashtag and keyword summary, 3 to 5 ranked Reel ideas, one best Reel recommendation, one full Reel draft, and explicit memory updates. Never invent trend data, posting results, or analytics. If posting or analytics tools are unavailable, mark that clearly and produce draft-ready posting instructions instead. Use text-only mode for media output when generation tools are unavailable."
-status = "ACTIVE"
-rrule = "FREQ=HOURLY;INTERVAL=8"
-execution_environment = "worktree"
-model = "gpt-5.4"
-reasoning_effort = "medium"
-cwds = ["C:/Users/nikhil singh/OneDrive/Documents/ecomwebsite"]
+
